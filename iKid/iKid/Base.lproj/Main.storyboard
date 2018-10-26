@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jfj-fy-GD2">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController restorationIdentifier="Punny" storyboardIdentifier="Punny" id="sYg-ui-l0K" customClass="SwitchingViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UTr-8O-VIj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rO2-VY-nVo">
-                                <rect key="frame" x="327" y="588" width="32" height="30"/>
+                                <rect key="frame" x="619" y="313" width="32" height="30"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqm-qe-vV7">
-                                <rect key="frame" x="16" y="20" width="34" height="30"/>
+                                <rect key="frame" x="16" y="0.0" width="34" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -60,11 +60,11 @@
             <objects>
                 <viewController restorationIdentifier="Good" storyboardIdentifier="Good" id="nVQ-Hd-Jmz" customClass="SwitchingViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YFG-Mr-kGH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcc-9t-H6o">
-                                <rect key="frame" x="327" y="588" width="32" height="30"/>
+                                <rect key="frame" x="619" y="313" width="32" height="30"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYd-cc-nMr">
-                                <rect key="frame" x="16" y="20" width="34" height="30"/>
+                                <rect key="frame" x="16" y="0.0" width="34" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -128,11 +128,11 @@
             <objects>
                 <viewController restorationIdentifier="Dad" storyboardIdentifier="Dad" id="Mfk-Nt-RpJ" customClass="SwitchingViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dpm-n6-GWR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kT6-ra-K0F">
-                                <rect key="frame" x="16" y="20" width="34" height="30"/>
+                                <rect key="frame" x="16" y="0.0" width="34" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -141,7 +141,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04W-Xb-q1Y">
-                                <rect key="frame" x="327" y="588" width="32" height="30"/>
+                                <rect key="frame" x="619" y="313" width="32" height="30"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -174,11 +174,11 @@
             <objects>
                 <viewController restorationIdentifier="Knock Knock" storyboardIdentifier="Knock Knock" id="Tvb-OQ-DzO" customClass="SwitchingViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vW2-95-cQw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vP-Et-Hh5">
-                                <rect key="frame" x="16" y="20" width="34" height="30"/>
+                                <rect key="frame" x="16" y="0.0" width="34" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -187,7 +187,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkZ-LH-S50">
-                                <rect key="frame" x="327" y="588" width="32" height="30"/>
+                                <rect key="frame" x="619" y="313" width="32" height="30"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -220,24 +220,29 @@
             <objects>
                 <viewController storyboardIdentifier="Knock KnockSetup2" id="qrp-SB-meM" customClass="setupViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DLq-9x-BlS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="uzU-3O-gGi">
-                                <rect key="frame" x="151" y="323.5" width="73" height="20.5"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jamaican" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JvE-uX-l5b">
-                                        <rect key="frame" x="0.0" y="0.0" width="73" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="667" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="JvE-uX-l5b" firstAttribute="centerY" secondItem="uzU-3O-gGi" secondAttribute="centerY" id="1R2-Fi-B04"/>
+                                    <constraint firstItem="JvE-uX-l5b" firstAttribute="centerX" secondItem="uzU-3O-gGi" secondAttribute="centerX" id="4hM-Ug-UnM"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.070893950760000005" green="0.22695690390000001" blue="0.36257475610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uzU-3O-gGi" firstAttribute="centerX" secondItem="DLq-9x-BlS" secondAttribute="centerX" id="4l0-zc-qiW"/>
+                            <constraint firstItem="JvE-uX-l5b" firstAttribute="width" secondItem="DLq-9x-BlS" secondAttribute="width" id="9do-uY-Maz"/>
                             <constraint firstItem="uzU-3O-gGi" firstAttribute="centerY" secondItem="DLq-9x-BlS" secondAttribute="centerY" id="N7u-aw-CcO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nuk-6S-ys0"/>
@@ -253,11 +258,11 @@
             <objects>
                 <viewController storyboardIdentifier="PunnyPunchline" id="zTE-Rw-VLb" customClass="punchlineViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wPK-Le-4wu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To get to the udder side." textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yeQ-4O-8mv">
-                                <rect key="frame" x="94" y="323" width="187" height="21"/>
+                                <rect key="frame" x="0.0" y="177" width="667" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -266,6 +271,7 @@
                         <color key="backgroundColor" red="0.070893950760000005" green="0.22695690390000001" blue="0.36257475610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="yeQ-4O-8mv" firstAttribute="centerY" secondItem="wPK-Le-4wu" secondAttribute="centerY" id="6Ge-xb-zch"/>
+                            <constraint firstItem="yeQ-4O-8mv" firstAttribute="width" secondItem="wPK-Le-4wu" secondAttribute="width" id="Jbb-pp-kG8"/>
                             <constraint firstItem="yeQ-4O-8mv" firstAttribute="centerX" secondItem="wPK-Le-4wu" secondAttribute="centerX" id="UHJ-gW-8vd"/>
                             <constraint firstItem="yeQ-4O-8mv" firstAttribute="centerX" secondItem="wPK-Le-4wu" secondAttribute="centerX" id="uxz-2C-Gkv"/>
                         </constraints>
@@ -282,11 +288,11 @@
             <objects>
                 <viewController storyboardIdentifier="GoodPunchline" id="zKe-DW-K0N" customClass="punchlineViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qMG-eQ-mWU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="She couldn't find the 10 key" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gAS-NF-971">
-                                <rect key="frame" x="82" y="323.5" width="211.5" height="20.5"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -296,6 +302,7 @@
                         <constraints>
                             <constraint firstItem="gAS-NF-971" firstAttribute="centerX" secondItem="qMG-eQ-mWU" secondAttribute="centerX" id="W1l-D0-YKV"/>
                             <constraint firstItem="gAS-NF-971" firstAttribute="centerY" secondItem="qMG-eQ-mWU" secondAttribute="centerY" id="rdi-Kq-ZQN"/>
+                            <constraint firstItem="gAS-NF-971" firstAttribute="width" secondItem="qMG-eQ-mWU" secondAttribute="width" id="t2f-3U-2Pj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="79S-hq-E8g"/>
                     </view>
@@ -310,11 +317,11 @@
             <objects>
                 <viewController storyboardIdentifier="DadPunchline" id="hh9-fs-dTe" customClass="punchlineViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E3e-3b-xqG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="They have a supreme ruler" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NkJ-q6-LYe">
-                                <rect key="frame" x="0.0" y="323" width="375" height="21"/>
+                                <rect key="frame" x="0.0" y="177" width="667" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -339,23 +346,28 @@
             <objects>
                 <viewController storyboardIdentifier="Knock KnockSetup1" id="NyC-No-GsE" customClass="setupViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jyq-7n-fDL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="cOF-i8-KYj">
-                                <rect key="frame" x="137" y="323.5" width="101" height="20.5"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who's there?" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ryO-33-car">
-                                        <rect key="frame" x="0.0" y="0.0" width="101" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="667" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="ryO-33-car" firstAttribute="centerY" secondItem="cOF-i8-KYj" secondAttribute="centerY" id="bIJ-P5-LG7"/>
+                                    <constraint firstItem="ryO-33-car" firstAttribute="centerX" secondItem="cOF-i8-KYj" secondAttribute="centerX" id="tGi-2b-oIQ"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.070893950760000005" green="0.22695690390000001" blue="0.36257475610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ryO-33-car" firstAttribute="width" secondItem="Jyq-7n-fDL" secondAttribute="width" id="17I-Of-5IT"/>
                             <constraint firstItem="cOF-i8-KYj" firstAttribute="centerY" secondItem="Jyq-7n-fDL" secondAttribute="centerY" id="CEj-3m-QkU"/>
                             <constraint firstItem="cOF-i8-KYj" firstAttribute="centerX" secondItem="Jyq-7n-fDL" secondAttribute="centerX" id="L66-ei-RvE"/>
                         </constraints>
@@ -372,25 +384,30 @@
             <objects>
                 <viewController storyboardIdentifier="Knock KnockSetup3" id="GMB-xf-CVc" customClass="setupViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pwz-nV-8pt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="dBd-3E-RMV">
-                                <rect key="frame" x="129" y="323.5" width="117.5" height="20.5"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jamaican who?" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H6P-ud-L06">
-                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="667" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="H6P-ud-L06" firstAttribute="centerY" secondItem="dBd-3E-RMV" secondAttribute="centerY" id="6Z2-F8-zLL"/>
+                                    <constraint firstItem="H6P-ud-L06" firstAttribute="centerX" secondItem="dBd-3E-RMV" secondAttribute="centerX" id="D6o-iF-929"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.070893950760000005" green="0.22695690390000001" blue="0.36257475610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dBd-3E-RMV" firstAttribute="centerY" secondItem="Pwz-nV-8pt" secondAttribute="centerY" id="0Ec-fd-GHt"/>
                             <constraint firstItem="dBd-3E-RMV" firstAttribute="centerX" secondItem="Pwz-nV-8pt" secondAttribute="centerX" id="0fV-IG-nW7"/>
+                            <constraint firstItem="H6P-ud-L06" firstAttribute="width" secondItem="Pwz-nV-8pt" secondAttribute="width" id="OS3-Wk-nnS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="f4e-1Y-ngU"/>
                     </view>
@@ -405,11 +422,11 @@
             <objects>
                 <viewController storyboardIdentifier="Knock KnockPunchline" id="03r-Zo-yvA" customClass="punchlineViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SB3-ZX-HYL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jamaican me crazy with these knock knock jokes!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u0f-GO-qPX" userLabel="Jamaican me crazy with these knock knock jokes">
-                                <rect key="frame" x="0.0" y="313" width="375" height="41"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES"/>
                                 </accessibility>
@@ -440,11 +457,11 @@
             <objects>
                 <viewController storyboardIdentifier="GoodSetup0" id="QAs-G3-7fx" userLabel="Setup" customClass="setupViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="26M-fK-vK3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why couldn't the blond add 10 and seven on a calculator?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFg-I1-msr">
-                                <rect key="frame" x="0.0" y="313" width="375" height="41"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -469,25 +486,30 @@
             <objects>
                 <viewController storyboardIdentifier="PunnySetup0" id="Jzg-E2-PmG" userLabel="Setup" customClass="setupViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R6K-1C-ipN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="duF-Xp-r2V">
-                                <rect key="frame" x="64.5" y="323.5" width="246.5" height="20.5"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why did the calf cross the road?" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hdr-pg-dVx">
-                                        <rect key="frame" x="0.0" y="0.0" width="246.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="667" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Hdr-pg-dVx" firstAttribute="centerX" secondItem="duF-Xp-r2V" secondAttribute="centerX" id="22q-no-hZo"/>
+                                    <constraint firstItem="Hdr-pg-dVx" firstAttribute="centerY" secondItem="duF-Xp-r2V" secondAttribute="centerY" id="IPd-bG-b2N"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.070893950760000005" green="0.22695690390000001" blue="0.36257475610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="duF-Xp-r2V" firstAttribute="centerY" secondItem="R6K-1C-ipN" secondAttribute="centerY" id="FoV-K3-eZl"/>
                             <constraint firstItem="duF-Xp-r2V" firstAttribute="centerX" secondItem="R6K-1C-ipN" secondAttribute="centerX" id="XS1-gv-VmR"/>
+                            <constraint firstItem="Hdr-pg-dVx" firstAttribute="width" secondItem="R6K-1C-ipN" secondAttribute="width" id="npm-mV-Jtb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="csv-FF-FIG"/>
                     </view>
@@ -502,23 +524,28 @@
             <objects>
                 <viewController storyboardIdentifier="Knock KnockSetup0" id="XOp-un-wFY" customClass="setupViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OfN-mt-fwd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="cnl-y4-joY">
-                                <rect key="frame" x="137.5" y="323.5" width="100.5" height="20.5"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Knock Knock" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96x-LI-43d" userLabel="Knock Knock">
-                                        <rect key="frame" x="0.0" y="0.0" width="100.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="667" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="96x-LI-43d" firstAttribute="centerX" secondItem="cnl-y4-joY" secondAttribute="centerX" id="u6I-Os-y2q"/>
+                                    <constraint firstItem="96x-LI-43d" firstAttribute="centerY" secondItem="cnl-y4-joY" secondAttribute="centerY" id="vXk-In-Fl4"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.070893950760000005" green="0.22695690390000001" blue="0.36257475610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="96x-LI-43d" firstAttribute="width" secondItem="OfN-mt-fwd" secondAttribute="width" id="2Nn-lL-3XN"/>
                             <constraint firstItem="cnl-y4-joY" firstAttribute="centerY" secondItem="OfN-mt-fwd" secondAttribute="centerY" id="C2J-sD-HSh"/>
                             <constraint firstItem="cnl-y4-joY" firstAttribute="centerX" secondItem="OfN-mt-fwd" secondAttribute="centerX" id="EwZ-XE-jKT"/>
                         </constraints>
@@ -535,14 +562,14 @@
             <objects>
                 <viewController storyboardIdentifier="DadSetup0" id="cqY-Xp-Hqg" customClass="setupViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vwD-jU-s9r">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="pHr-Bm-JZi">
-                                <rect key="frame" x="0.0" y="323.5" width="375" height="20.5"/>
+                                <rect key="frame" x="0.0" y="177.5" width="667" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why are North Koreans good at geometry?" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="piX-YM-V6g">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="667" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.89660596849999996" green="0.83028864859999996" blue="0.65879482030000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -556,9 +583,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.070893950760000005" green="0.22695690390000001" blue="0.36257475610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="piX-YM-V6g" firstAttribute="width" secondItem="vwD-jU-s9r" secondAttribute="width" id="mjq-kc-Cfo"/>
                             <constraint firstItem="pHr-Bm-JZi" firstAttribute="centerY" secondItem="vwD-jU-s9r" secondAttribute="centerY" id="uJJ-KQ-mKi"/>
                             <constraint firstItem="pHr-Bm-JZi" firstAttribute="centerX" secondItem="vwD-jU-s9r" secondAttribute="centerX" id="vSo-gj-w7q"/>
-                            <constraint firstItem="piX-YM-V6g" firstAttribute="width" secondItem="vwD-jU-s9r" secondAttribute="width" id="ze3-6o-bW8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OAI-yy-fUR"/>
                     </view>
