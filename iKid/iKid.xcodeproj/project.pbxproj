@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0122E46F218056B7007C70EE /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 0122E463218056B7007C70EE /* thumbs_up.png */; };
-		0122E470218056B7007C70EE /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0122E464218056B7007C70EE /* home.png */; };
-		0122E473218056B7007C70EE /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 0122E467218056B7007C70EE /* globe.png */; };
-		0122E478218056B7007C70EE /* user_male.png in Resources */ = {isa = PBXBuildFile; fileRef = 0122E46C218056B7007C70EE /* user_male.png */; };
-		01C645FE21816A6000B6C797 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C645FD21816A6000B6C797 /* data.swift */; };
-		01C6460021817CEB00B6C797 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C645FF21817CEB00B6C797 /* SwitchingViewController.swift */; };
-		01C64602218183BE00B6C797 /* setupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C64601218183BE00B6C797 /* setupViewController.swift */; };
-		01C64604218187E700B6C797 /* punchlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C64603218187E700B6C797 /* punchlineViewController.swift */; };
 		01E761C02180306A00495DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E761BF2180306A00495DC3 /* AppDelegate.swift */; };
 		01E761C22180306A00495DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E761C12180306A00495DC3 /* ViewController.swift */; };
 		01E761C52180306A00495DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E761C32180306A00495DC3 /* Main.storyboard */; };
@@ -42,14 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0122E463218056B7007C70EE /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
-		0122E464218056B7007C70EE /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
-		0122E467218056B7007C70EE /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
-		0122E46C218056B7007C70EE /* user_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_male.png; sourceTree = "<group>"; };
-		01C645FD21816A6000B6C797 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
-		01C645FF21817CEB00B6C797 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
-		01C64601218183BE00B6C797 /* setupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setupViewController.swift; sourceTree = "<group>"; };
-		01C64603218187E700B6C797 /* punchlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = punchlineViewController.swift; sourceTree = "<group>"; };
 		01E761BC2180306A00495DC3 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E761BF2180306A00495DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01E761C12180306A00495DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,17 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0122E460218056B7007C70EE /* Tab Icon */ = {
-			isa = PBXGroup;
-			children = (
-				0122E463218056B7007C70EE /* thumbs_up.png */,
-				0122E464218056B7007C70EE /* home.png */,
-				0122E467218056B7007C70EE /* globe.png */,
-				0122E46C218056B7007C70EE /* user_male.png */,
-			);
-			path = "Tab Icon";
-			sourceTree = "<group>";
-		};
 		01E761B32180306A00495DC3 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +81,6 @@
 				01E761D32180306B00495DC3 /* iKidTests */,
 				01E761DE2180306B00495DC3 /* iKidUITests */,
 				01E761BD2180306A00495DC3 /* Products */,
-				0122E460218056B7007C70EE /* Tab Icon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,10 +99,6 @@
 			children = (
 				01E761BF2180306A00495DC3 /* AppDelegate.swift */,
 				01E761C12180306A00495DC3 /* ViewController.swift */,
-				01C645FD21816A6000B6C797 /* data.swift */,
-				01C645FF21817CEB00B6C797 /* SwitchingViewController.swift */,
-				01C64603218187E700B6C797 /* punchlineViewController.swift */,
-				01C64601218183BE00B6C797 /* setupViewController.swift */,
 				01E761C32180306A00495DC3 /* Main.storyboard */,
 				01E761C62180306B00495DC3 /* Assets.xcassets */,
 				01E761C82180306B00495DC3 /* LaunchScreen.storyboard */,
@@ -262,12 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E761CA2180306B00495DC3 /* LaunchScreen.storyboard in Resources */,
-				0122E470218056B7007C70EE /* home.png in Resources */,
-				0122E473218056B7007C70EE /* globe.png in Resources */,
 				01E761C72180306B00495DC3 /* Assets.xcassets in Resources */,
-				0122E478218056B7007C70EE /* user_male.png in Resources */,
 				01E761C52180306A00495DC3 /* Main.storyboard in Resources */,
-				0122E46F218056B7007C70EE /* thumbs_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C64602218183BE00B6C797 /* setupViewController.swift in Sources */,
-				01C64604218187E700B6C797 /* punchlineViewController.swift in Sources */,
 				01E761C22180306A00495DC3 /* ViewController.swift in Sources */,
-				01C645FE21816A6000B6C797 /* data.swift in Sources */,
 				01E761C02180306A00495DC3 /* AppDelegate.swift in Sources */,
-				01C6460021817CEB00B6C797 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
